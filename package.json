@@ -1,0 +1,26 @@
+{
+  "name": "@nocobase/plugin-migration-manager",
+  "version": "1.0.0",
+  "displayName": "Migration Manager",
+  "displayName.id-ID": "Migration Manager",
+  "description": "Migrate collections, workflows, and UI schemas between Nocobase instances",
+  "description.id-ID": "Migrate collections, workflows, and UI schemas between Nocobase instances",
+  "main": "dist/server/index.js",
+  "keywords": [
+    "nocobase",
+    "plugin",
+    "migration",
+    "export",
+    "import"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@nocobase/client": "^1.0.0",
+    "@nocobase/server": "^1.0.0",
+    "@nocobase/test": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@nocobase/client": "^1.0.0",
+    "@nocobase/server": "^1.0.0"
+  }
+}
